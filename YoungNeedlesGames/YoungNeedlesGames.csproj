@@ -110,6 +110,12 @@
     <Content Include="Static\src\app\app.component.css" />
     <Content Include="Static\src\app\app.component.html" />
     <Content Include="Static\test.js" />
+    <Content Include="Static\dist\index.html" />
+    <Content Include="Static\dist\inline.bundle.js" />
+    <Content Include="Static\dist\main.bundle.js" />
+    <Content Include="Static\dist\polyfills.bundle.js" />
+    <Content Include="Static\dist\styles.bundle.js" />
+    <Content Include="Static\dist\vendor.bundle.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Static\package.json" />
@@ -131,6 +137,12 @@
     <None Include="Static\src\app\app.module.ts" />
     <None Include="Static\src\environments\environment.prod.ts" />
     <None Include="Static\src\environments\environment.ts" />
+    <None Include="Static\dist\favicon.ico" />
+    <None Include="Static\dist\inline.bundle.js.map" />
+    <None Include="Static\dist\main.bundle.js.map" />
+    <None Include="Static\dist\polyfills.bundle.js.map" />
+    <None Include="Static\dist\styles.bundle.js.map" />
+    <None Include="Static\dist\vendor.bundle.js.map" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 	<Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
