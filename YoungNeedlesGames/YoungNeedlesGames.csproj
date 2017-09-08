@@ -109,6 +109,7 @@
     <Content Include="Static\src\styles.css" />
     <Content Include="Static\src\app\app.component.css" />
     <Content Include="Static\src\app\app.component.html" />
+    <Content Include="Static\test.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Static\package.json" />
