@@ -118,6 +118,7 @@
     <Content Include="Static\dist\vendor.bundle.js" />
     <Content Include="Static\src\app\home\home.component.css" />
     <Content Include="Static\src\app\home\home.component.html" />
+    <Content Include="Static\dist\home.module.chunk.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Static\package.json" />
@@ -149,6 +150,7 @@
     <None Include="Static\src\app\home\home.component.ts" />
     <None Include="Static\src\app\home\home.module.ts" />
     <None Include="Static\src\app\home\home.routing.ts" />
+    <None Include="Static\dist\home.module.chunk.js.map" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 	<Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
