@@ -1,6 +1,6 @@
-webpackJsonp(["home.module"],{
+webpackJsonp(["tools.module"],{
 
-/***/ "../../../../../src/app/home/home.component.css":
+/***/ "../../../../../src/app/tools/tools.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
@@ -18,18 +18,18 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ "../../../../../src/app/home/home.component.html":
+/***/ "../../../../../src/app/tools/tools.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "Home component"
+module.exports = "Tools component"
 
 /***/ }),
 
-/***/ "../../../../../src/app/home/home.component.ts":
+/***/ "../../../../../src/app/tools/tools.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToolsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -38,30 +38,30 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 
-var HomeComponent = (function () {
-    function HomeComponent() {
+var ToolsComponent = (function () {
+    function ToolsComponent() {
     }
-    return HomeComponent;
+    return ToolsComponent;
 }());
-HomeComponent = __decorate([
+ToolsComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
-        template: __webpack_require__("../../../../../src/app/home/home.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/home/home.component.css")]
+        template: __webpack_require__("../../../../../src/app/tools/tools.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/tools/tools.component.css")]
     })
-], HomeComponent);
+], ToolsComponent);
 
-//# sourceMappingURL=home.component.js.map
+//# sourceMappingURL=tools.component.js.map
 
 /***/ }),
 
-/***/ "../../../../../src/app/home/home.module.ts":
+/***/ "../../../../../src/app/tools/tools.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeModule", function() { return HomeModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolsModule", function() { return ToolsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_routing__ = __webpack_require__("../../../../../src/app/home/home.routing.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__tools_routing__ = __webpack_require__("../../../../../src/app/tools/tools.routing.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -70,36 +70,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 
 
-var HomeModule = (function () {
-    function HomeModule() {
+var ToolsModule = (function () {
+    function ToolsModule() {
     }
-    return HomeModule;
+    return ToolsModule;
 }());
-HomeModule = __decorate([
+ToolsModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgModule */])({
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1__home_routing__["b" /* HomeRoutingModule */]
+            __WEBPACK_IMPORTED_MODULE_1__tools_routing__["b" /* ToolsRoutingModule */]
         ],
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_1__home_routing__["a" /* ComponentsList */]
+            __WEBPACK_IMPORTED_MODULE_1__tools_routing__["a" /* ComponentsList */]
         ],
         providers: []
     })
-], HomeModule);
+], ToolsModule);
 
-//# sourceMappingURL=home.module.js.map
+//# sourceMappingURL=tools.module.js.map
 
 /***/ }),
 
-/***/ "../../../../../src/app/home/home.routing.ts":
+/***/ "../../../../../src/app/tools/tools.routing.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentsList; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return HomeRoutingModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ToolsRoutingModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_component__ = __webpack_require__("../../../../../src/app/home/home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tools_component__ = __webpack_require__("../../../../../src/app/tools/tools.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -110,25 +110,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 //Components
 
-var ComponentsList = [__WEBPACK_IMPORTED_MODULE_2__home_component__["a" /* HomeComponent */]];
+var ComponentsList = [__WEBPACK_IMPORTED_MODULE_2__tools_component__["a" /* ToolsComponent */]];
 var routes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_2__home_component__["a" /* HomeComponent */] }
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_2__tools_component__["a" /* ToolsComponent */] }
 ];
-var HomeRoutingModule = (function () {
-    function HomeRoutingModule() {
+var ToolsRoutingModule = (function () {
+    function ToolsRoutingModule() {
     }
-    return HomeRoutingModule;
+    return ToolsRoutingModule;
 }());
-HomeRoutingModule = __decorate([
+ToolsRoutingModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgModule */])({
         imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* RouterModule */].forChild(routes)],
         exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* RouterModule */]]
     })
-], HomeRoutingModule);
+], ToolsRoutingModule);
 
-//# sourceMappingURL=home.routing.js.map
+//# sourceMappingURL=tools.routing.js.map
 
 /***/ })
 
 });
-//# sourceMappingURL=home.module.chunk.js.map
+//# sourceMappingURL=tools.module.chunk.js.map

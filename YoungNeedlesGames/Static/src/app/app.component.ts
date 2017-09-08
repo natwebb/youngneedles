@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'young-needles',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+    constructor(
+        private router: Router
+    ) {}
+
+    //Public Methods
+    goTo(route: string) {
+        this.router.navigate([route]);
+    }
 }

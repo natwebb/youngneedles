@@ -1,0 +1,28 @@
+.top-nav {
+    min-height: 50px;
+}
+
+.top-nav-list {
+    list-style: none;
+    text-align: center;
+    display: block;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.top-nav-list li {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 50px;
+    line-height:50px;
+}
+
+.top-nav-list-item {
+    cursor: pointer;
+}
+
+.top-nav-list-item:hover {
+    background-color: #bbb;
+}

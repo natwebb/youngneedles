@@ -1,3 +1,13 @@
-<h2>Young Needles Games</h2>
+<nav class="top-nav">
+    <ul class="top-nav-list">
+        <li class="top-nav-list-item">Young Needles Games</li>
+        <li></li>
+        <li></li>
+        <li class="top-nav-list-item" (click)="goTo('products')">Products</li>
+        <li class="top-nav-list-item" (click)="goTo('tools')">Tools</li>
+    </ul>
+</nav>
 
-<router-outlet></router-outlet>
+<div class="content-window">
+    <router-outlet></router-outlet>
+</div>
