@@ -85,6 +85,7 @@
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Models\" />
+    <Folder Include="Static\src\app\home\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -109,13 +110,14 @@
     <Content Include="Static\src\styles.css" />
     <Content Include="Static\src\app\app.component.css" />
     <Content Include="Static\src\app\app.component.html" />
-    <Content Include="Static\test.js" />
     <Content Include="Static\dist\index.html" />
     <Content Include="Static\dist\inline.bundle.js" />
     <Content Include="Static\dist\main.bundle.js" />
     <Content Include="Static\dist\polyfills.bundle.js" />
     <Content Include="Static\dist\styles.bundle.js" />
     <Content Include="Static\dist\vendor.bundle.js" />
+    <Content Include="Static\src\app\home\home.component.css" />
+    <Content Include="Static\src\app\home\home.component.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Static\package.json" />
@@ -143,6 +145,10 @@
     <None Include="Static\dist\polyfills.bundle.js.map" />
     <None Include="Static\dist\styles.bundle.js.map" />
     <None Include="Static\dist\vendor.bundle.js.map" />
+    <None Include="Static\src\app\app.routing.ts" />
+    <None Include="Static\src\app\home\home.component.ts" />
+    <None Include="Static\src\app\home\home.module.ts" />
+    <None Include="Static\src\app\home\home.routing.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 	<Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
